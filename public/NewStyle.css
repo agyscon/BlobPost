@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Kaushan+Script|Luckiest+Guy|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Luckiest+Guy|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Bitter|Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Bitter|Merriweather|Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Satisfy');
+
+
+h1 {
+
+    display: block;
+    font-size: 50px;
+    font-family:  "Bitter";
+    text-align: center;
+}
+h2 {
+    font-size: 40px;
+    font-family: "Arvo";
+    text-align: center
+
+}h3 {
+    font-size: 25px;
+    font-style: bold;
+    font-family: "Arvo";
+    text-align: center
+}
+
+body{
+	margin: 0px;
+	background: url(bg.JPG);
+	background-size: cover;
+/*
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/blurry-blue.jpg);
+	background-size: cover;
+*/
+}
+
+p {
+    text-align: center;
+    font-family: "calibri";
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+li {
+    float: left;
+    width: 25%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+a {
+	font-family: "Arvo";
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+
+/*
+	background-color: green;
+*/
+}
+
+
+/*
+	==========================
+	This is used for stylizing
+	the homepage pictures
+	==========================
+*/
+.big {
+	padding: 10px;
+	width: 1000px;
+/*
+	background-color: orange;
+*/
+}
+
+@media(min-width: 900px) {
+	.big {
+		display: flex;
+		justify-content: space-between;
+		padding: 20px;
+	}
+
+}
+
+.left {
+	margin: 10px;
+	flex-basis: 32%;
+	display: flex;
+	flex-direction: column;
+/*
+	background-color: green;
+*/
+}
+
+.post img {
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 100%;
+
+	border-radius: 10px;
+}
+.post {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+/*
+	background-color: black;
+*/
+}
+
+.dropdownItem {
+	float: none;
+	display: block;
+}
+.tippy {
+/*
+	background-color: green;
+*/
+	margin: 0;
+	top: 0;
+	bottom: 0;
+	padding: 30px;
+	background-color: #0d0d0d;
+	color: white;
+}
+
+.navigationBar {
+	display: flex;
+	width: 1000px;
+	margin: auto;
+}
+
+
+
+.navigationBar li ul li {
+	float: none;
+	width: 100%;
+}
+
+.navigationBar li ul {
+	position: absolute;
+	display: none;
+	width: 250px;
+}
+
+#userTextBox {
+	margin-top: 50px;
+	resize: none;
+	font-family: "calibri";
+	padding: 10px;
+	background-color: #262626;
+	color: white;
+}
+
+#userPosts {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 15px;
+}
+.writtenPost {
+	background: orange;
+	border-radius: 10px;
+	background-color: #262626;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px; 
+	width: 800px;
+	padding: 10px;
+}
+
+.writtenPost p {
+	color: white;
+	text-align: left;
+}
+.submitionButton {
+	display: block;
+	margin: auto;
+}
+
+.basicVert {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+
+
+
